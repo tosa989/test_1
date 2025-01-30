@@ -1,164 +1,218 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-7WS9C1D49C"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-7WS9C1D49C');
-</script>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-5XK559MG');</script>
-<!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>スキーとスノーボードの知識</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #e0f7fa;
-            color: #333;
-        }
-        header, footer {
-            background-color: #00796b;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav {
-            margin: 10px 0;
-        }
-        nav a {
-            margin: 0 10px;
-            text-decoration: none;
-            color: #004d40;
-        }
-        section {
-            margin: 20px 0;
-            padding: 10px;
-            background-color: #ffffff;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            color: #00796b;
-        }
-    </style>
+    <title>スノーボードキャンペーン</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
 </head>
 <body>
-    <header>
-        <h1>スキーとスノーボードの知識</h1>
-        <nav>
-            <a href="#skiing">スキー</a>
-            <a href="#snowboarding">スノーボード</a>
-            <a href="#gear">装備</a>
-            <a href="#safety">安全対策</a>
-            <a href="#resorts">おすすめのリゾート</a>
-            <a href="#hakuba">八方尾根スキー場</a>
-        </nav>
+
+    
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">SNOWBOARD<br>EXPERIENCE</h1>
+          
+            <h3>※このサイトはOptimizenext用です_11</h3>
+
+            <div class="hero-text-animation">
+                <div class="text-slide">
+                    <p>最高の滑りを、最高のボードで。</p>
+                    <p>自然との調和を追求した設計</p>
+                    <p>プロフェッショナルが認めた性能</p>
+                    <p>環境に配慮した素材選び</p>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>SCROLL</span>
+                <div class="scroll-line"></div>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
     </header>
 
-    <section id="skiing">
-        <h2>スキーの基礎知識</h2>
-        <p>スキーは、雪の上を滑るためのスポーツで、スキー板とストックを使用します。スキーの歴史は古く、北欧で狩猟や移動手段として発展しました。</p>
-        <h3>スキーの種類</h3>
+    <nav class="floating-nav">
         <ul>
-            <li>アルペンスキー</li>
-            <li>クロスカントリースキー</li>
-            <li>フリースタイルスキー</li>
+            <li><a href="#concept">CONCEPT</a></li>
+            <li><a href="#features">FEATURES</a></li>
+            <li><a href="#gallery">GALLERY</a></li>
+            <li><a href="#campaign">CAMPAIGN</a></li>
         </ul>
-    </section>
+    </nav>
 
-    <section id="snowboarding">
-        <h2>スノーボードの基礎知識</h2>
-        <p>スノーボードは、スノーボード板に乗って雪の上を滑るスポーツです。スノーボードは1960年代にアメリカで誕生しました。</p>
-        <h3>スノーボードのスタイル</h3>
-        <ul>
-            <li>フリースタイル</li>
-            <li>フリーライド</li>
-            <li>アルパイン</li>
-        </ul>
-    </section>
+    <main>
+        <section id="concept" class="concept-section">
+            <div class="section-inner">
+                <h2 class="section-title">CONCEPT</h2>
+                <div class="concept-content">
+                    <p class="concept-text">
+                        自然との調和を追求した<br>
+                        最高峰のスノーボード
+                    </p>
+                    <div class="concept-image parallax-image"></div>
+                    <div class="concept-description">
+                        <p>スノーボードは、ただのスポーツではありません。<br>
+                        それは自然との対話であり、自由への探求です。<br>
+                        私たちは、その探求をより深く、より豊かにするための道具を作り続けています。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section id="gear">
-        <h2>スキーとスノーボードの装備</h2>
-        <p>スキーやスノーボードを楽しむためには、適切な装備が必要です。以下は基本的な装備のリストです。</p>
-        <h3>スキー装備</h3>
-        <ul>
-            <li>スキー板</li>
-            <li>スキーブーツ</li>
-            <li>ストック</li>
-        </ul>
-        <h3>スノーボード装備</h3>
-        <ul>
-            <li>スノーボード板</li>
-            <li>スノーボードブーツ</li>
-            <li>バインディング</li>
-        </ul>
-    </section>
+        <section id="features" class="features-section">
+            <div class="section-inner">
+                <h2 class="section-title">FEATURES</h2>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <div class="feature-number">01</div>
+                        <h3>最新テクノロジー</h3>
+                        <p>最先端の素材と技術で<br>究極の操作性を実現</p>
+                        <div class="feature-image">
+                            <img src="feature1.jpg" alt="最新テクノロジー">
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-number">02</div>
+                        <h3>環境配慮設計</h3>
+                        <p>サステナブルな素材を使用<br>地球に優しい製品づくり</p>
+                        <div class="feature-image">
+                            <img src="feature2.jpg" alt="環境配慮設計">
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-number">03</div>
+                        <h3>プロフェッショナル仕様</h3>
+                        <p>プロライダー監修による<br>高度な性能設計</p>
+                        <div class="feature-image">
+                            <img src="feature3.jpg" alt="プロフェッショナル仕様">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section id="safety">
-        <h2>安全対策</h2>
-        <p>スキーやスノーボードを安全に楽しむためには、以下の安全対策を守ることが重要です。</p>
-        <ul>
-            <li>ヘルメットの着用</li>
-            <li>適切なレベルのコースを選ぶ</li>
-            <li>天候や雪の状態を確認する</li>
-        </ul>
-    </section>
+        <section id="gallery" class="gallery-section">
+            <div class="section-inner">
+                <h2 class="section-title">GALLERY</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="gallery1.jpg" alt="ギャラリー画像1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="gallery2.jpg" alt="ギャラリー画像2">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="gallery3.jpg" alt="ギャラリー画像3">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="gallery4.jpg" alt="ギャラリー画像4">
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section id="resorts">
-        <h2>おすすめのスキー・スノーボードリゾート</h2>
-        <p>日本には多くの素晴らしいスキー・スノーボードリゾートがあります。以下はその一部です。</p>
-        <ul>
-            <li>ニセコ（北海道）</li>
-            <li>白馬（長野県）</li>
-            <li>苗場（新潟県）</li>
-        </ul>
-    </section>
+        <section id="campaign" class="campaign-section">
+            <div class="section-inner">
+                <h2 class="section-title">CAMPAIGN</h2>
+                <div class="campaign-content">
+                    <div class="campaign-text">
+                        <h3>期間限定キャンペーン実施中</h3>
+                        <p>2024年モデル予約受付開始<br>
+                        早期予約特典として、オリジナルアクセサリーをプレゼント</p>
+                        <ul class="campaign-benefits">
+                            <li>オリジナルボードケース</li>
+                            <li>メンテナンスキット</li>
+                            <li>ステッカーセット</li>
+                            <li>1年間のメンテナンス無料</li>
+                        </ul>
+                    </div>
+                    <div class="campaign-image">
+                        <img src="campaign.jpg" alt="キャンペーン画像">
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section id="hakuba">
-        <h2>八方尾根スキー場</h2>
-        <p>八方尾根スキー場は、長野県白馬村に位置する日本最大級のスキー場の一つです。豊富な積雪量と多様なコースが特徴で、初心者から上級者まで楽しむことができます。</p>
-        <h3>特徴</h3>
-        <ul>
-            <li>標高差：1,071メートル</li>
-            <li>コース数：13コース</li>
-            <li>リフト数：23基</li>
-        </ul>
-        <h3>おすすめのコース</h3>
-        <ul>
-            <li>白樺コース：初心者向けの緩やかなコース</li>
-            <li>黒菱コース：上級者向けの急斜面</li>
-            <li>スカイラインコース：中級者向けの長距離コース</li>
-            <li>↑これ全部違う　全長2kmで高速リフトで斜度も20～30でちょうどいいリーゼン最強</li>
-        </ul>
-        <h3>アクセス</h3>
-        <p>東京から新幹線とバスで約3時間半。長野駅からは直通バスが運行しています。</p>
-    </section>
+        <section class="cta-section">
+            <div class="cta-content">
+                <h2>特別キャンペーン実施中</h2>
+                <p>今なら特別価格でご提供<br>
+                さらに特典付きで最高のスノーボード体験をお届けします</p>
+                <button class="cta-button" onclick="location.href='form.html'">
+                    <span class="button-text">いますぐ申し込む</span>
+                    <span class="button-arrow">→</span>
+                </button>
+                <p class="cta-note">※キャンペーン期間：2024年1月末まで</p>
+            </div>
+        </section>
+
+        <section class="testimonials-section">
+            <div class="section-inner">
+                <h2 class="section-title">VOICE</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-item">
+                        <div class="testimonial-content">
+                            <p>"このボードに出会ってから、滑りが変わりました。
+                            想像以上の操作性と安定感で、新しい技術にも挑戦しやすくなりました。"</p>
+                            <div class="testimonial-author">
+                                <img src="rider1.jpg" alt="ライダー1">
+                                <div class="author-info">
+                                    <p class="author-name">山田 太郎</p>
+                                    <p class="author-title">プロスノーボーダー</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content">
+                            <p>"環境に配慮した素材を使用していながら、
+                            性能面でも妥協がないところが素晴らしいです。"</p>
+                            <div class="testimonial-author">
+                                <img src="rider2.jpg" alt="ライダー2">
+                                <div class="author-info">
+                                    <p class="author-name">鈴木 花子</p>
+                                    <p class="author-title">フリースタイルライダー</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <p>&copy; 2023 スキーとスノーボードの知識. All rights reserved.</p>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="logo.png" alt="SNOWBOARD EXPERIENCE">
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#concept">CONCEPT</a></li>
+                    <li><a href="#features">FEATURES</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                    <li><a href="#campaign">CAMPAIGN</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <a href="#" class="social-icon"><img src="instagram.png" alt="Instagram"></a>
+                <a href="#" class="social-icon"><img src="facebook.png" alt="Facebook"></a>
+                <a href="#" class="social-icon"><img src="twitter.png" alt="Twitter"></a>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SNOWBOARD EXPERIENCE. All Rights Reserved.</p>
+            </div>
+        </div>
     </footer>
-  
-</body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5XK559MG"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-    <!-- Optimize Next -->
+  <!-- Optimize Next -->
 <script>(function(p,r,o,j,e,c,t,g){
 p['_'+t]={};g=r.createElement('script');g.src='https://www.googletagmanager.com/gtm.js?id=GTM-'+t;r[o].prepend(g);
 g=r.createElement('style');g.innerText='.'+e+t+'{visibility:hidden!important}';r[o].prepend(g);
 r[o][j].add(e+t);setTimeout(function(){if(r[o][j].contains(e+t)){r[o][j].remove(e+t);p['_'+t]=0}},c)
 })(window,document,'documentElement','classList','loading',2000,'KNWC5W6Q')</script>
 <!-- End Optimize Next -->
+    <script src="scripts.js"></script>
+</body>
 </html>
