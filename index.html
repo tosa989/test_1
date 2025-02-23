@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    <script async src="http://localhost:3002/storage/v1/object/public/public-assets/organizations/9d48ddd7-4f8a-48b9-9571-217838f55d3e/scripts/script.js"></script>
+    <script type="module">
+  import { generateScript } from 'https://tosa989.github.io/test_1/generate_embed.ts';
+  const script = document.createElement('script');
+  script.textContent = generateScript('your-organization-id');
+  document.head.appendChild(script);
+</script>
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
